@@ -1,8 +1,8 @@
 {
   "name": "employee-directory",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://jesseodonoghue.github.io/react-employee-directory",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
